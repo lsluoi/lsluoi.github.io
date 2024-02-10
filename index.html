@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>个人网站</title>
+  <!-- 引入外部CSS文件 -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- 导航栏 -->
+<header>
+  <nav>
+    <ul class="navbar">
+      <li><a href="#about" class="nav-item">关于我</a></li>
+      <li><a href="#projects" class="nav-item">个人作品</a></li>
+      <li><a href="#contact" class="nav-item">联系方式</a></li>
+      <li><a href="#message-board" class="nav-item">留言板</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- 内容区域 -->
+<main>
+
+  <!-- 关于我 -->
+  <section id="about" style="display: none;">
+    <h2>关于我</h2>
+    <p>这里是关于我的详细介绍...</p>
+  </section>
+
+  <!-- 个人作品 -->
+  <section id="projects" style="display: none;">
+    <h2>个人作品</h2>
+    <!-- 在这里添加你的项目展示内容 -->
+
+      <!-- 假设你有一个B站视频信息数组 -->
+  <div class="project-item">
+    <!-- 视频封面图片，src指向视频封面URL -->
+    <a href="https://www.bilibili.com/video/BV1da4y1Z7VQ" target="_blank">
+      <img src="悬溺.jpg" alt="悬溺" title="悬溺">
+    </a>
+    
+    <!-- 视频标题 -->
+    <h3 class="video-title">悬溺</h3>
+  </div>
+  </section>
+
+  <!-- 联系方式 -->
+  <section id="contact" style="display: none;">
+    <h2>联系方式</h2>
+    <p>电话：1234567890</p>
+    <p>Email：example@example.com</p>
+    <!-- 更多联系方式信息 -->
+  </section>
+
+  <!-- 留言板 -->
+  <section id="message-board" style="display: none;">
+    <h2>留言板</h2>
+    <!-- 这里可以是一个简单的表单或者嵌入一个第三方留言插件等 -->
+  </section>
+
+</main>
+
+<!-- 使用JavaScript来处理点击事件并显示对应内容 -->
+<script src="scripts.js"></script>
+
+<footer>
+  <!-- 底部信息 -->
+</footer>
+
+</body>
+</html>
