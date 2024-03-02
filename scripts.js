@@ -16,7 +16,7 @@ window.onload = function() {
       event.preventDefault(); // 阻止默认行为
 
       // 获取所有内容区域，并将它们隐藏
-      const allContentAreas = document.querySelectorAll('#about, #projects, #contact, #message-board');
+      const allContentAreas = document.querySelectorAll('#about, #message-board, #business-cooperation, #donate, #friendship-promotion');
       allContentAreas.forEach(area => area.style.display = 'none');
 
       // 获取当前点击的目标ID（去除#）
